@@ -172,8 +172,8 @@ a{
 }
 
 .img:hover{
-    filter: brightness(120%);
-    scale: 0.98;
+    filter: brightness(105%);
+    scale: 0.97;
     cursor: pointer;
 }
 
