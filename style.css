@@ -15,8 +15,28 @@ body{
       height: 100%;
 }
 
+.designer{
+    font-size: 18vw;
+}
 
+.p{
+    width: 100vw;
+    font-size: 2vw;
+    padding-top: 10vh;
+    padding-left: 2vw;
+}
 
+#myVideo {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    filter: opacity(0.8);
+    background-color: #222222;
+
+  }
+  
 
 .profile{
     height: 100%;
@@ -48,7 +68,7 @@ body{
     max-height: 100vh;
     width: 100vw;
     height: 100vh;
-    background-color: #222222;
+    background-color: transparent;
     animation: fadeIn 2.5s;
 }
 .vishwash{
@@ -354,12 +374,23 @@ a{
         width: 100%;
     
     }
+
+    .designer{
+        font-size: 18vw;
+    }
+    
+    .p{
+        width: 100vw;
+        font-size: 4vw;
+        padding-top: 18vh;
+        padding-left: 4vw;
+    }
     .first-screen {
         max-width: 100vw;
         max-height: 100vh;
         width: 100vw;
         height: 100vh;
-        background-color: #222222;
+        background-color: transparent;
 
     }
     .vishwash{
