@@ -15,28 +15,8 @@ body{
       height: 100%;
 }
 
-.designer{
-    font-size: 18vw;
-}
 
-.p{
-    width: 100vw;
-    font-size: 2vw;
-    padding-top: 10vh;
-    padding-left: 2vw;
-}
 
-#myVideo {
-    z-index: -1;
-    position: absolute;
-    top: 0;
-    min-width: 100vw;
-    min-height: 100vh;
-    filter: opacity(0.8);
-    background-color: #222222;
-
-  }
-  
 
 .profile{
     height: 100%;
@@ -61,30 +41,30 @@ body{
 
 }
 .top-nav {
-    margin-left: -20%;
+    margin-left: -35%;
 }
 .first-screen {
     max-width: 100vw;
     max-height: 100vh;
     width: 100vw;
     height: 100vh;
-    background-color: transparent;
+    background-color: #222222;
     animation: fadeIn 2.5s;
 }
 .vishwash{
-    margin: 4vh 10% 0 0%;
+    margin: 4vh 16% 0 0%;
     font-size: 120% !important;
 }
 
 .Product-Designer-2022 {
-    margin: 4vh 16%;
+    margin: 4vh 35%;
     min-width: 130px;
     font-size: 90%;
     text-align: left;
 }
 
 .Avaliable-for-Freelance-Projects {
-    margin: 4vh 20%;
+    margin: 4vh 35%;
     min-width: 150px;
     font-size: 90%;
     text-align: left;
@@ -374,23 +354,12 @@ a{
         width: 100%;
     
     }
-
-    .designer{
-        font-size: 18vw;
-    }
-    
-    .p{
-        width: 100vw;
-        font-size: 4vw;
-        padding-top: 18vh;
-        padding-left: 4vw;
-    }
     .first-screen {
         max-width: 100vw;
         max-height: 100vh;
         width: 100vw;
         height: 100vh;
-        background-color: transparent;
+        background-color: #222222;
 
     }
     .vishwash{
