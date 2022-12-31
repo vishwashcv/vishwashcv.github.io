@@ -37,11 +37,11 @@ body{
     display: flex;
     margin-top: 1%;
     justify-content: center;
-    width: 90%;
+    width: 100vw;
 
 }
 .top-nav {
-    margin-left: -35%;
+    margin-bottom: 24vh;
 }
 .first-screen {
     max-width: 100vw;
@@ -52,32 +52,32 @@ body{
     animation: fadeIn 2.5s;
 }
 .vishwash{
-    margin: 4vh 16% 0 0%;
-    font-size: 120% !important;
+    margin: 4vh 18vw 0 0%;
+    font-size: 1vw !important;
 }
 
 .Product-Designer-2022 {
-    margin: 4vh 35%;
-    min-width: 130px;
-    font-size: 90%;
+    margin: 4vh 10vw;
+    min-width: 8vw;
+    font-size: 0.8vw;
     text-align: left;
 }
 
 .Avaliable-for-Freelance-Projects {
-    margin: 4vh 35%;
-    min-width: 150px;
-    font-size: 90%;
+    margin: 4vh 8vw;
+    min-width: 8vw;
+    font-size: 0.8vw;
     text-align: left;
 }
 
 .lets-talk-button {
-    margin: 4vh 0 0 8%;
-    font-size: 70%;
+    margin: 4vh 0 0 5vw;
+    font-size: 0.6vw;
     border: 1px solid white;
     border-radius: 50px;
-    width: 200px;
-    height: 30px;
-    padding: 6px 5% 5px 5%;
+    width: 6.5vw;
+    height: 3.3vh;
+    padding: 6px 2vw 5px 2vw;
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -94,15 +94,15 @@ pre{
 }
 
 .Product-Designer {
-    font-size: 200%;
-    width: 420px;
+    font-size: 1.8vw;
+    width: 100vw;
     text-align: center;
-    margin-top: 20vh;
+    
     
 }
 .Hello {
-    font-size: 80%;
-    width: 330px;
+    font-size: 0.65vw;
+    width: 16vw;
     text-align: center;
     margin-top: 1vh;
     
@@ -113,12 +113,12 @@ a{
 
 .scroll-button {
     margin-top: 3.5vh;
-    font-size: 70%;
-    min-width: 150px;
-    max-width: 180px;
+    font-size: 0.57vw;
+    min-width: 8vw;
+    max-width: 11.5vw;
     border: 1px solid white;
-    border-radius: 50px;
-    padding: 8px 24px !important;
+    border-radius: 200px;
+    padding: 1vh 24px;
     cursor: pointer;
 }
 
@@ -128,13 +128,13 @@ a{
 }
 
 .bottom-nav {
-    margin-top: 18vh;
+    margin-top: 24vh !important;
    
 }
 .social {
     margin: 4vh 10% 0 10%;
-    width: 140px;
-    font-size: 80%;
+    width: 5vw;
+    font-size: 0.8vw;
     text-align: left;
      position: relative;
     bottom: 0;
@@ -149,16 +149,16 @@ a{
 }
 
 .year{
-    margin: 4vh 4% 0 8%;
-    width: 140px;
-    font-size: 80%;
+    margin: 4vh 30vw 0 0;
+    width: 5vw;
+    font-size: 0.8vw;
     text-align: left;
 }
 
 .location{
-    margin: 4vh 8% 0 8%;
-    width: 300px;
-    font-size: 80%;
+    margin: 4vh 16vw 0 2vw;
+    width: 12vw;
+    font-size: 0.8vw;
     text-align: left;
 }
 
@@ -208,123 +208,7 @@ a{
     background: #6d6d6d; 
   }
 
-  @media screen and (max-width: 1920px)  {
-        .Product-Designer {
-            margin-top: 24vh !important;
-        }
-        .bottom-nav {
-            margin-top: 26vh !important;
-           
-        }
-  }
 
-@media only screen and (max-width: 1280px) {
-    .top-nav, .bottom-nav{
-        display: flex;
-        margin-top: 1%;
-    
-    }
-    .top-nav{
-        margin-left: 0;
-    }
-    .first-screen {
-        max-width: 100vw;
-        max-height: 100vh;
-    }
-    .vishwash{
-        margin: 4vh 16% 0 -20%;
-        font-size: 100% !important;
-    }
-    
-    .Product-Designer-2022 {
-        margin: 4vh 5%;
-        width: 140px;
-        font-size: 80%;
-        text-align: left;
-    }
-    
-    .Avaliable-for-Freelance-Projects {
-        margin: 4vh 8%;
-        width: 150px;
-        font-size: 80%;
-        text-align: left;
-    }
-    
-    .lets-talk-button {
-        margin: 4vh 0 0 8%;
-        font-size: 60%;
-        border: 1px solid white;
-        border-radius: 50px;
-        width: 90px;
-        padding: 2% 0;
-    }
-    
-    .Product-Designer {
-        font-size: 200%;
-        width: 420px;
-        text-align: center;
-        margin-top: 28vh;
-        
-    }
-    .Hello {
-        font-size: 80%;
-        width: 330px;
-        text-align: center;
-        margin-top: 1vh;
-        
-    }
-    
-    .scroll-button {
-        margin-top: 3.5vh;
-    }
-    
-    .bottom-nav {
-        margin-top: 20vh !important;
-    }
-    .social {
-        margin: 4vh 10%;
-        width: 140px;
-        font-size: 80%;
-        text-align: left;
-    }
-    
-    .social-total {
-        margin: 0 1%;
-        display: flex;
-    }
-    
-    .year{
-        margin: 4vh 8% 0 0%;
-        width: 30px;
-        font-size: 80%;
-        text-align: left;
-    }
-    
-    .location{
-        margin: 4vh 4% 0 4%;
-        width: 240px;
-        font-size: 80%;
-        text-align: left;
-    }
-    .scroll-button {
-        margin-top: 3.5vh;
-        font-size: 50%;
-        width: 120px;
-        padding:0.4%;
-        border: 1px solid white;
-        border-radius: 50px;
-        padding: 0.9% 0;
-    }
-    .lets-talk-button {
-        margin: 4vh 0 0 8%;
-        font-size: 70%;
-        border: 1px solid white;
-        border-radius: 50px;
-        width: 200px;
-        height: 26px;
-        padding: 0.8% 5%;
-    }
-}
 
 .top-nav-block {
     display: flex;
@@ -334,7 +218,54 @@ a{
 
 
 
+@media only screen and (max-width: 1180px) {
+    .vishwash {
+        font-size: 1.6vw !important;
+    }
+    
+    .Product-Designer-2022{
+        font-size: 1.4vw;
+        margin: 4vh 5vw;
+    }
 
+    .year{
+        margin: 4vh 16vw 0 0;
+        font-size: 1.4vw;
+    }
+
+    .Avaliable-for-Freelance-Projects{
+        font-size: 1.4vw;
+
+    }
+
+    .lets-talk-button{
+        font-size: 1vw;
+        padding: 8px 2px;
+        width: 9vw;
+        height: 3vh;
+    }
+
+    .scroll-button{
+        max-width: 16vw;
+        font-size: 1vw;
+        padding: 8px 18px;
+    }
+    .location{
+        font-size: 1.4vw;
+        margin: 4vh 8vw 0 0;
+        width: 16vw;
+    }
+
+    .social{
+        font-size: 1.4vw;
+        margin: 4vh 10%;
+        width: 8vw;
+    }
+
+    .Product-Designer {
+        font-size: 2.6vw;
+    }
+}
 
 
 
@@ -354,6 +285,9 @@ a{
         width: 100%;
     
     }
+    .top-nav{
+        margin-bottom: 18vh;
+    }
     .first-screen {
         max-width: 100vw;
         max-height: 100vh;
@@ -363,46 +297,46 @@ a{
 
     }
     .vishwash{
-        margin: 4vh 0% 0 0%;
-        padding-left: 4%;
-        font-size: 90% !important;
+        margin: 4vh 38vw 0 0%;
+        padding-left: 3vw;
+        font-size: 1.5vh !important;
     }
     
     .Product-Designer-2022 {
         margin: 4vh 1%;
         width: 140px;
-        font-size: 70%;
+        font-size: 1.5vh;
         text-align: left;
     
     }
     
     .Avaliable-for-Freelance-Projects {
         margin: 4vh 0%;
-        max-width: 10px;
-        font-size: 70%;
+        min-width: 4vw;
+        font-size: 1.5vh;
         text-align: left;
     }
     
     .lets-talk-button {
-        margin: 4vh 0 0 8%;
-        font-size: 50%;
+        margin: 0 0 0 8%;
+        font-size: 1vh;
         border: 1px solid white;
         border-radius: 50px;
         width: 70px;
         height: 12%;
         min-height: 18px;
-        padding: 2% 5%;
+        padding: 1vh 6vw;
     }
     
     .Product-Designer {
-        font-size: 110%;
-        width: 230px;
+        font-size: 2.3vh;
+        width: 80vw;
         text-align: center;
-        margin-top: 22vh;   
+   
         
     }
     .Hello {
-        font-size: 60%;
+        font-size: 1.2vh;
         width: 240px;
         text-align: center;
         margin-top: 1vh;
@@ -411,39 +345,33 @@ a{
     
     .scroll-button {
         margin-top: 2.5vh;
+        font-size: 60%;
+        padding: 8px 24px;
+        min-width: 160px!important;
     }
     
-    .button-one {
-        width: 70%;
-    }
-    .button-two {
-        width: 31%;
-        max-width: 170px;
-    }
+
 
     .bottom-nav {
-        margin-top: 16vh;
-        padding-top: 2vh;
+        margin-top: 28vh !important;
+        padding-top: 0vh;
     }
  
     
     .year{
-        margin: 4vh 5% 0 12%;
-        width: 140px;
-        font-size: 70%;
-        text-align: left;
+        margin: 0vh 24vw 0 11vw;
+        width: 8vw;
+        font-size: 1.5vh;
     }
     
     .location{
-        margin: 4vh 0 0 10%;
+        margin: 0vh 0 0 10%;
         width: 260px;
-        font-size: 70%;
-        text-align: left;
+        font-size: 1.5vh;
         padding-left: 7%;
     }
     .top-nav-block {
         display: block;
-        margin: 0 0% 0 40%;
     }
     .img{
         max-width: 100%;
@@ -457,39 +385,7 @@ a{
 
 
 @media only screen and (max-width: 600px) {
-    .vishwash{
-        padding-left: 10px;
-    }
-    .top-nav-block{
-        margin-left: 32%;
-    }
-    .Product-Designer {
-        font-size: 110%;
-        width: 230px;
-        text-align: center;
-        margin-top: 18vh !important;   
-        
-    }
-    .bottom-nav {
-        margin-top: 20vh !important;
-    }
-    .year{
-        margin: 4vh 8% 0 14%;
-        width: 140px;
-        font-size: 70%;
-        text-align: left;
-    }
-    .scroll-button{
-        padding: 6px 5px !important;
-        min-width: 130px;
-    }
-    
-    .location{
-        margin: 4vh 0 0 1%;
-        width: 300px;
-        font-size: 70%;
-        text-align: left;
-    }
+  
     .img{
         width: 100%;
     }
@@ -507,30 +403,4 @@ a{
     
 }
 
-@media only screen and (min-width: 1090px) {
-    .Product-Designer {
-        margin-top: 16vh;
-    }
-    .bottom-nav{
-        margin-top: 20vh;
-    }
-}
-
-
-@media only screen and (max-width: 400px){
-    .top-nav-block {
-        margin-left: 20%;
-    }
-    .lets-talk-button {
-        margin: 4vh 0 0 8%;
-        font-size: 50%;
-        border: 1px solid white;
-        border-radius: 50px;
-        width: 70px;
-        height: 12%;
-        min-height: 16px;
-        padding: 2% 2%;
-    }
-    
-}
 
