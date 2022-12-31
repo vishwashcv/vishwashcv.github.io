@@ -322,11 +322,11 @@ a{
         font-size: 1vh;
         border: 1px solid white;
         border-radius: 50px;
-        min-width: 70px;
-        height: 12%;
-        min-height: 20px;
+        min-width: 90px;
+        max-height: 30px;
+        min-height: 30x;
         max-width: 80px;
-        padding: 8px 12px;
+        padding: 8px 32px;
     }
     
     .Product-Designer {
@@ -347,8 +347,9 @@ a{
     .scroll-button {
         margin-top: 2.5vh;
         font-size: 55%;
+        max-height: 30px !important;
         padding: 8px 20px;
-        min-width: 140px!important;
+        min-width: 160px!important;
     }
     
 
