@@ -319,10 +319,11 @@ a{
     
     .lets-talk-button {
         margin: 0 0 0 8%;
-        font-size: 1vh;
+        font-size: 55%;
         border: 1px solid white;
         border-radius: 50px;
         min-width: 90px;
+        max-width: 90px;
         max-height: 30px;
         min-height: 30x;
         max-width: 80px;
