@@ -247,8 +247,8 @@ a{
 
     .scroll-button{
         max-width: 16vw;
-        font-size: 1vw;
-        padding: 8px 18px;
+        font-size: 0.8vw;
+        padding: 8px 18px; 
     }
     .location{
         font-size: 1.4vw;
@@ -297,7 +297,7 @@ a{
 
     }
     .vishwash{
-        margin: 4vh 38vw 0 0%;
+        margin: 4vh 34vw 0 0%;
         padding-left: 3vw;
         font-size: 1.5vh !important;
     }
@@ -322,10 +322,11 @@ a{
         font-size: 1vh;
         border: 1px solid white;
         border-radius: 50px;
-        width: 85px;
+        min-width: 70px;
         height: 12%;
-        min-height: 18px;
-        padding: 1vh 6vw;
+        min-height: 20px;
+        max-width: 80px;
+        padding: 8px 12px;
     }
     
     .Product-Designer {
@@ -345,9 +346,9 @@ a{
     
     .scroll-button {
         margin-top: 2.5vh;
-        font-size: 60%;
-        padding: 8px 24px;
-        min-width: 160px!important;
+        font-size: 55%;
+        padding: 8px 20px;
+        min-width: 140px!important;
     }
     
 
@@ -359,14 +360,14 @@ a{
  
     
     .year{
-        margin: 0vh 24vw 0 11vw;
+        margin: 0vh 18vw 0 11vw;
         width: 8vw;
         font-size: 1.5vh;
     }
     
     .location{
         margin: 0vh 0 0 10%;
-        width: 260px;
+        width: 280px;
         font-size: 1.5vh;
         padding-left: 7%;
     }
